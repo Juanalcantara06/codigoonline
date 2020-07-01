@@ -1,0 +1,25 @@
+
+.formulario-personal {background-color: rosybrown;}
+
+
+/*todos los elementos input que esten dentro de un elemeto que tenga clase .formulario-personal */
+.formulario-personal input{border-radius: 10px;}
+
+
+
+.formulario-externo {background-color: rgb(213, 235, 135);}
+
+section {background-color: rgb(25, 0, 255);}
+
+.letra-morada {color: purple;}
+
+.subrayado {
+    text-decoration: underline;
+}
+
+#inputgoogle {background: grey !important;}
+
+#inputgoogle {background: rgb(38, 21, 100);}
+
+
+

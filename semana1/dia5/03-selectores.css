@@ -1,0 +1,28 @@
+/*selector de etiqueta */
+/* todos los label de la pagina*/
+
+label {
+    color: teal
+}
+
+/* estilo que afecta a todos los h1 y h2 */
+h2, h1 {color: purple;}
+
+
+/*selector de hijos a cualquier nivel*/
+/*todos los hijos o nietos o bisnietos*/
+/*que sean li y esten dentro de un*/
+
+ul li {color: red;}
+
+
+
+/*selector de hijos en primer nivel*/
+/* o selector de hijos directos*/
+/*todos los li que sean hijos en primer o sean hijos directos de un ol*/
+
+
+ol > li {color: blue;}
+
+
+
