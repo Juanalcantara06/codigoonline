@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {height: 100%;}
+
+body {
+    background: -webkit-linear-gradient(left, #2193b0, #6dd5ed); /* Chrome 10-25, Safari 5.1-6 */
+}
+
+.section1 {
+    height: 200px;
+    width: 200px;
+    border: 1px solid orangered;
+    background: -webkit-linear-gradient(left, #000046, #1cb5e0); /* Chrome 10-25, Safari 5.1-6 */
+}
+
+.section2{
+    height: 200px;
+    width: 200px;
+    border: 1px solid orangered;
+    background: -webkit-radial-gradient(center, ellipse, #000046, #1cb5e0);;
+}

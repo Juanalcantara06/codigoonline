@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./tipo1.css" />
+    <title>Tipo 1</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>tablas</h1>
+    </header>
+
+    <main>
+      <section>
+        <h2>Tablas simples</h2>
+
+        <table border="3">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>curso</th>
+              <th>duracion</th>
+              <th>categoria</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>pyton</td>
+              <td>300h</td>
+              <td>backend</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>adobe</td>
+              <td>200h</td>
+              <td>UX/UI</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+              </td>
+              <td>-</td>
+              <td>500h</td>
+              <td>-</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <hr />
+
+      <section>
+        <!-- table>(thead>tr>th*5{cabecera})+(tbody>tr*3>td*5{contenido $})+(tfoot>tr>td*5{pie $}) -->
+        <h2>tabla 2</h2>
+
+        <table border="3">
+          <thead>
+            <tr>
+              <th>cabecera</th>
+              <th>cabecera</th>
+              <th>cabecera</th>
+              <th>cabecera</th>
+              <th>cabecera</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>contenido 1</td>
+              <td>contenido 2</td>
+              <td>contenido 3</td>
+              <td>contenido 4</td>
+              <td>contenido 5</td>
+            </tr>
+            <tr>
+              <td>contenido 1</td>
+              <td>contenido 2</td>
+              <td>contenido 3</td>
+              <td>contenido 4</td>
+              <td>contenido 5</td>
+            </tr>
+            <tr>
+              <td>contenido 1</td>
+              <td>contenido 2</td>
+              <td>contenido 3</td>
+              <td>contenido 4</td>
+              <td>contenido 5</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>pie 1</td>
+              <td>pie 2</td>
+              <td>pie 3</td>
+              <td>pie 4</td>
+              <td>pie 5</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <hr>
+
+
+      <section>
+          <h4>Tablas celdas combinadas</h4>
+
+          <!-- table>(thead>tr>th*5{cabecera})+(tbody>tr*3>td*5{contenido $})+(tfoot>tr>td*5{pie $}) -->
+
+          <table border="1">
+              <thead>
+                  <tr>
+                      <th>cabecera1</th> <th>cabecera2</th> <th>cabecera3</th> <th>ccabecera4</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td colspan="2">contenido1</td> <td colspan="2">contenido2</td>
+                  </tr>
+                  <tr>
+                      <td colspan="4">contenido 3</td>
+                      
+                  </tr>
+              </tbody>
+          </table>
+      </section>
+
+      <hr>
+
+      <section>
+          <h5>tabla con filas combinadas</h5>
+          
+
+          <table border="1">
+              <tr>
+                  <th rowspan="3">fila1</th>
+                  <th>fila1</th>
+                  <th>fila1</th>
+              </tr>
+              <tr>
+                  
+                  <td>fila2</td>
+                  <td>fila2</td>
+              </tr>
+              <tr>
+                  
+                  <td>fila3</td>
+                  <td>fila3</td>
+              </tr>
+
+
+
+          </table>
+
+
+
+      </section>
+
+      <hr>
+
+      <section>
+          <h5>tabla con filas combinadas 2</h5>
+                    <table border="1">
+              <tr>
+                  <th rowspan="3">fila1</th>
+                  <th>fila1</th>
+                  <th rowspan="3">fila1</th>
+              </tr>
+              <tr>
+                  
+                  <td>fila2</td>
+                  
+              </tr>
+              <tr>
+                  <td>fila3</td>               
+              </tr>
+
+          </table>
+      </section>
+
+      <hr>
+      <hr>
+      
+      <!-- table>(thead>tr>th*5{cabecera})+(tbody>tr*3>td*5{contenido $})+(tfoot>tr>td*5{pie $}) -->
+
+      <table border="3">
+        <thead>
+          <tr>
+            <th colspan="3">tttttxxxxxx</th>
+            <th>tttttxxxxxx</th>
+            <th rowspan="2">tttttxxxxxx</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>tttttxxxxxx</td>
+            <td>tttttxxxxxx</td>
+            <td>tttttxxxxxx</td>
+            <td>tttttxxxxxx</td>
+            
+          </tr>
+          <tr>
+            <td>tttttxxxxxx</td>
+            <td colspan="3" rowspan="2">tttttxxxxxx</td>
+            <td>tttttxxxxxx</td>
+            
+          </tr>
+          <tr>
+            <td>tttttxxxxxx</td>
+            <td>tttttxxxxxx</td>
+          </tr>
+          <tr>
+            <td>tttttxxxxxx</td>
+            <td>tttttxxxxxx</td>
+            <td>tttttxxxxxx</td>
+            <td>tttttxxxxxx</td>
+            <td>tttttxxxxxx</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+    </main>
+  </body>
+</html>
